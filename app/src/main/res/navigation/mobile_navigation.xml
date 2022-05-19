@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_information">
+
+
+
+    <fragment
+        android:id="@+id/navigation_information"
+        android:name="uk.ac.tees.t7099806.iotbottomnavigation.ui.Information.InformationFragment"
+        android:label="settings"
+        tools:layout="@layout/fragment_information" />
+
+    <fragment
+        android:id="@+id/navigation_GPS"
+        android:name="uk.ac.tees.t7099806.iotbottomnavigation.ui.GPS.GPSFragment"
+        android:label="gps"
+        tools:layout="@layout/fragment_gps" />
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="uk.ac.tees.t7099806.iotbottomnavigation.ui.Notifications.NotificationsFragment"
+        android:label="notifications"
+        tools:layout="@layout/notifications_fragment"
+
+    />
+</navigation>

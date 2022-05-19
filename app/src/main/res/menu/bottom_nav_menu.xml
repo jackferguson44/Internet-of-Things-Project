@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_information"
+        android:icon="@drawable/ic_info"
+        android:title="Information" />
+
+
+
+    <item
+        android:id="@+id/navigation_GPS"
+        android:icon="@drawable/ic_map"
+        android:title="Pet's location" />
+
+<!--    <item-->
+<!--        android:id="@+id/navigation_notifications"-->
+<!--        android:icon="@drawable/ic_notifications"-->
+<!--        android:title="Notifications"-->
+<!--        />-->
+
+</menu>
